@@ -13,6 +13,9 @@
 		A02BF7771E7A28750000F236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02BF7751E7A28750000F236 /* Main.storyboard */; };
 		A02BF7791E7A28750000F236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02BF7781E7A28750000F236 /* Assets.xcassets */; };
 		A02BF77C1E7A28750000F236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02BF77A1E7A28750000F236 /* LaunchScreen.storyboard */; };
+		A02BF7861E7A293E0000F236 /* UINavigationController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BF7851E7A293E0000F236 /* UINavigationController+Transition.m */; };
+		A02BF7AC1E7A855E0000F236 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BF7AB1E7A855E0000F236 /* SecondViewController.m */; };
+		A04861741E7B80F100327141 /* simulator.gif in Resources */ = {isa = PBXBuildFile; fileRef = A04861731E7B80F100327141 /* simulator.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		A02BF7781E7A28750000F236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A02BF77B1E7A28750000F236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A02BF77D1E7A28750000F236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02BF7841E7A293E0000F236 /* UINavigationController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Transition.h"; sourceTree = "<group>"; };
+		A02BF7851E7A293E0000F236 /* UINavigationController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Transition.m"; sourceTree = "<group>"; };
+		A02BF7AA1E7A855E0000F236 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A02BF7AB1E7A855E0000F236 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A04861731E7B80F100327141 /* simulator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simulator.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +66,18 @@
 		A02BF76B1E7A28750000F236 /* DSNavigationBarTransition */ = {
 			isa = PBXGroup;
 			children = (
+				A02BF7831E7A28940000F236 /* Category */,
 				A02BF76F1E7A28750000F236 /* AppDelegate.h */,
 				A02BF7701E7A28750000F236 /* AppDelegate.m */,
 				A02BF7721E7A28750000F236 /* ViewController.h */,
 				A02BF7731E7A28750000F236 /* ViewController.m */,
+				A02BF7AA1E7A855E0000F236 /* SecondViewController.h */,
+				A02BF7AB1E7A855E0000F236 /* SecondViewController.m */,
 				A02BF7751E7A28750000F236 /* Main.storyboard */,
 				A02BF7781E7A28750000F236 /* Assets.xcassets */,
 				A02BF77A1E7A28750000F236 /* LaunchScreen.storyboard */,
 				A02BF77D1E7A28750000F236 /* Info.plist */,
+				A04861731E7B80F100327141 /* simulator.gif */,
 				A02BF76C1E7A28750000F236 /* Supporting Files */,
 			);
 			path = DSNavigationBarTransition;
@@ -77,6 +89,15 @@
 				A02BF76D1E7A28750000F236 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A02BF7831E7A28940000F236 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A02BF7841E7A293E0000F236 /* UINavigationController+Transition.h */,
+				A02BF7851E7A293E0000F236 /* UINavigationController+Transition.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A02BF77C1E7A28750000F236 /* LaunchScreen.storyboard in Resources */,
+				A04861741E7B80F100327141 /* simulator.gif in Resources */,
 				A02BF7791E7A28750000F236 /* Assets.xcassets in Resources */,
 				A02BF7771E7A28750000F236 /* Main.storyboard in Resources */,
 			);
@@ -151,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02BF7AC1E7A855E0000F236 /* SecondViewController.m in Sources */,
 				A02BF7741E7A28750000F236 /* ViewController.m in Sources */,
 				A02BF7711E7A28750000F236 /* AppDelegate.m in Sources */,
+				A02BF7861E7A293E0000F236 /* UINavigationController+Transition.m in Sources */,
 				A02BF76E1E7A28750000F236 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2D2K9ZS58G;
 				INFOPLIST_FILE = DSNavigationBarTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dushu.ou.DSNavigationBarTransition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2D2K9ZS58G;
 				INFOPLIST_FILE = DSNavigationBarTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dushu.ou.DSNavigationBarTransition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +338,7 @@
 				A02BF7821E7A28750000F236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

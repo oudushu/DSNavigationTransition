@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UINavigationController (Transition)
+@interface UIViewController (Transition)
+
+@property (nonatomic, assign) CGFloat navigationBarAlpha;
+@property (nonatomic, strong) UIColor *navigationBarTintColor;
+
+@end
+
+@interface UINavigationController (Transition) <UINavigationControllerDelegate, UINavigationBarDelegate>
 
 @end

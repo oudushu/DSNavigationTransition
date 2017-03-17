@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "UINavigationController+Transition.h"
 
 @interface SecondViewController ()
 
@@ -16,22 +17,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.navigationBarAlpha = arc4random() % 2;
+    self.navigationItem.title = [NSString stringWithFormat:@"SubVC %lu", self.navigationController.viewControllers.count];
+    
+    CGFloat hue = ( arc4random() % 256 / 256.0 );
+    CGFloat saturation = ( arc4random() % 128 / 256.0 ) + 0.5;
+    CGFloat brightness = ( arc4random() % 128 / 256.0 ) + 0.5;
+    self.view.backgroundColor = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    [self.view addSubview:button];
+    button.center = self.view.center;
+    [button addTarget:self action:@selector(pushButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)pushButtonClick:(id)sender {
+    SecondViewController *vc = [[SecondViewController alloc] init];
+    [self showViewController:vc sender:nil];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
