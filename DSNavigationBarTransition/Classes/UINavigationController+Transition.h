@@ -18,3 +18,4 @@
 @interface UINavigationController (Transition) <UINavigationControllerDelegate, UINavigationBarDelegate>
 
 @end
+https://github.com/OuDuShu/DSNavigationTransition.git
