@@ -15,7 +15,7 @@
 		A02BF77C1E7A28750000F236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02BF77A1E7A28750000F236 /* LaunchScreen.storyboard */; };
 		A02BF7AC1E7A855E0000F236 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BF7AB1E7A855E0000F236 /* SecondViewController.m */; };
 		A04861741E7B80F100327141 /* simulator.gif in Resources */ = {isa = PBXBuildFile; fileRef = A04861731E7B80F100327141 /* simulator.gif */; };
-		A04861781E7B844900327141 /* UINavigationController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = A04861771E7B844900327141 /* UINavigationController+Transition.m */; };
+		A04861801E7B94B000327141 /* UINavigationController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = A048617F1E7B94B000327141 /* UINavigationController+Transition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		A02BF7AA1E7A855E0000F236 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		A02BF7AB1E7A855E0000F236 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A04861731E7B80F100327141 /* simulator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simulator.gif; sourceTree = "<group>"; };
-		A04861761E7B844900327141 /* UINavigationController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Transition.h"; sourceTree = "<group>"; };
-		A04861771E7B844900327141 /* UINavigationController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Transition.m"; sourceTree = "<group>"; };
+		A048617E1E7B94B000327141 /* UINavigationController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Transition.h"; sourceTree = "<group>"; };
+		A048617F1E7B94B000327141 /* UINavigationController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Transition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 		A02BF76B1E7A28750000F236 /* DSNavigationBarTransition */ = {
 			isa = PBXGroup;
 			children = (
-				A04861751E7B844900327141 /* DSNavigationBarTransition */,
+				A048617D1E7B94B000327141 /* DSNavigationBarTransition */,
 				A02BF76F1E7A28750000F236 /* AppDelegate.h */,
 				A02BF7701E7A28750000F236 /* AppDelegate.m */,
 				A02BF7721E7A28750000F236 /* ViewController.h */,
@@ -91,11 +91,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A04861751E7B844900327141 /* DSNavigationBarTransition */ = {
+		A048617D1E7B94B000327141 /* DSNavigationBarTransition */ = {
 			isa = PBXGroup;
 			children = (
-				A04861761E7B844900327141 /* UINavigationController+Transition.h */,
-				A04861771E7B844900327141 /* UINavigationController+Transition.m */,
+				A048617E1E7B94B000327141 /* UINavigationController+Transition.h */,
+				A048617F1E7B94B000327141 /* UINavigationController+Transition.m */,
 			);
 			path = DSNavigationBarTransition;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			files = (
 				A02BF7AC1E7A855E0000F236 /* SecondViewController.m in Sources */,
 				A02BF7741E7A28750000F236 /* ViewController.m in Sources */,
-				A04861781E7B844900327141 /* UINavigationController+Transition.m in Sources */,
+				A04861801E7B94B000327141 /* UINavigationController+Transition.m in Sources */,
 				A02BF7711E7A28750000F236 /* AppDelegate.m in Sources */,
 				A02BF76E1E7A28750000F236 /* main.m in Sources */,
 			);
