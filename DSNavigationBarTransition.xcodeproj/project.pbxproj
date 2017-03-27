@@ -18,7 +18,7 @@
 		A04861801E7B94B000327141 /* UINavigationController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = A048617F1E7B94B000327141 /* UINavigationController+Transition.m */; };
 		A0EFFF2A1E891EC200AF6744 /* DSNavigationBarTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EFFF231E891EC200AF6744 /* DSNavigationBarTransition.framework */; };
 		A0EFFF2B1E891EC200AF6744 /* DSNavigationBarTransition.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0EFFF231E891EC200AF6744 /* DSNavigationBarTransition.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A0EFFF321E891FCF00AF6744 /* UINavigationController+Transition.h in Headers */ = {isa = PBXBuildFile; fileRef = A048617E1E7B94B000327141 /* UINavigationController+Transition.h */; };
+		A0EFFF321E891FCF00AF6744 /* UINavigationController+Transition.h in Headers */ = {isa = PBXBuildFile; fileRef = A048617E1E7B94B000327141 /* UINavigationController+Transition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0EFFF331E891FDD00AF6744 /* UINavigationController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = A048617F1E7B94B000327141 /* UINavigationController+Transition.m */; };
 /* End PBXBuildFile section */
 
