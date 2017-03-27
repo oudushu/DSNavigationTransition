@@ -1,0 +1,70 @@
+BCSymbolMap Version: 2.0
+-[UINavigationController(Transition) viewDidLoad]
++[UINavigationController(Transition) load]
+___42+[UINavigationController(Transition) load]_block_invoke
++[UINavigationController(Transition) swizzleMethodOriginalSelector:swizzledSelector:]
+-[UINavigationController(Transition) ds__updateInteractiveTransition:]
+-[UINavigationController(Transition) setNeedsNavigationBackground:]
+___67-[UINavigationController(Transition) setNeedsNavigationBackground:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___67-[UINavigationController(Transition) setNeedsNavigationBackground:]_block_invoke.65
+___copy_helper_block_.66
+___destroy_helper_block_.67
+-[UINavigationController(Transition) averageColorFromColor:toColor:percent:]
+-[UINavigationController(Transition) ds_popToRootViewControllerAnimated:]
+-[UINavigationController(Transition) ds_popToViewController:animated:]
+-[UINavigationController(Transition) navigationController:willShowViewController:animated:]
+___91-[UINavigationController(Transition) navigationController:willShowViewController:animated:]_block_invoke
+___copy_helper_block_.78
+___destroy_helper_block_.79
+___91-[UINavigationController(Transition) navigationController:willShowViewController:animated:]_block_invoke.84
+___copy_helper_block_.85
+___destroy_helper_block_.86
+-[UINavigationController(Transition) dealInteractionChanges:]
+___61-[UINavigationController(Transition) dealInteractionChanges:]_block_invoke
+___copy_helper_block_.96
+___destroy_helper_block_.97
+___61-[UINavigationController(Transition) dealInteractionChanges:]_block_invoke.99
+___copy_helper_block_.100
+___destroy_helper_block_.101
+-[UINavigationController(Transition) navigationBar:shouldPopItem:]
+-[UINavigationController(Transition) navigationBar:shouldPushItem:]
+-[UIViewController(Transition) navigationBarAlpha]
+-[UIViewController(Transition) setNavigationBarAlpha:]
+-[UIViewController(Transition) navigationBarTintColor]
+-[UIViewController(Transition) setNavigationBarTintColor:]
+_load.onceToken
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp.58
+___block_descriptor_tmp.68
+___block_descriptor_tmp.81
+___block_descriptor_tmp.87
+___block_descriptor_tmp.98
+___block_descriptor_tmp.102
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UINavigationControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
+l_OBJC_PROTOCOL_$_UIBarPositioningDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+l_OBJC_PROTOCOL_$_UINavigationBarDelegate
+l_OBJC_LABEL_PROTOCOL_$_UINavigationBarDelegate
+_kNavigationBarAlphaKey
+_kNavigationBarTintColorKey
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/oudushu/WorkSpace/DSNavigationBarTransition/DSNavigationBarTransition/DSNavigationBarTransition/UINavigationController+Transition.m
+/Users/oudushu/WorkSpace/DSNavigationBarTransition
+__destroy_helper_block_
+__copy_helper_block_
+__61-[UINavigationController(Transition) dealInteractionChanges:]_block_invoke.99
+__61-[UINavigationController(Transition) dealInteractionChanges:]_block_invoke
+__91-[UINavigationController(Transition) navigationController:willShowViewController:animated:]_block_invoke.84
+__91-[UINavigationController(Transition) navigationController:willShowViewController:animated:]_block_invoke
+__67-[UINavigationController(Transition) setNeedsNavigationBackground:]_block_invoke.65
+__67-[UINavigationController(Transition) setNeedsNavigationBackground:]_block_invoke
+__42+[UINavigationController(Transition) load]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/dispatch/once.h
+/Users/oudushu/Library/Developer/Xcode/DerivedData/DSNavigationBarTransition-goblhwguwgcrduecjkkcvefcnykg/Build/Intermediates/DSNavigationBarTransition.build/Release-iphoneos/DSNavigationBarTransitionFramework.build/DerivedSources/DSNavigationBarTransition_vers.c

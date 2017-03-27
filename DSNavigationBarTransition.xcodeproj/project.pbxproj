@@ -16,7 +16,35 @@
 		A02BF7AC1E7A855E0000F236 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BF7AB1E7A855E0000F236 /* SecondViewController.m */; };
 		A04861741E7B80F100327141 /* simulator.gif in Resources */ = {isa = PBXBuildFile; fileRef = A04861731E7B80F100327141 /* simulator.gif */; };
 		A04861801E7B94B000327141 /* UINavigationController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = A048617F1E7B94B000327141 /* UINavigationController+Transition.m */; };
+		A0EFFF2A1E891EC200AF6744 /* DSNavigationBarTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EFFF231E891EC200AF6744 /* DSNavigationBarTransition.framework */; };
+		A0EFFF2B1E891EC200AF6744 /* DSNavigationBarTransition.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0EFFF231E891EC200AF6744 /* DSNavigationBarTransition.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0EFFF321E891FCF00AF6744 /* UINavigationController+Transition.h in Headers */ = {isa = PBXBuildFile; fileRef = A048617E1E7B94B000327141 /* UINavigationController+Transition.h */; };
+		A0EFFF331E891FDD00AF6744 /* UINavigationController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = A048617F1E7B94B000327141 /* UINavigationController+Transition.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0EFFF281E891EC200AF6744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02BF7611E7A28750000F236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0EFFF221E891EC200AF6744;
+			remoteInfo = DSNavigationBarTransitionFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0EFFF2F1E891EC200AF6744 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A0EFFF2B1E891EC200AF6744 /* DSNavigationBarTransition.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A02BF7691E7A28750000F236 /* DSNavigationBarTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSNavigationBarTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,10 +62,20 @@
 		A04861731E7B80F100327141 /* simulator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simulator.gif; sourceTree = "<group>"; };
 		A048617E1E7B94B000327141 /* UINavigationController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Transition.h"; sourceTree = "<group>"; };
 		A048617F1E7B94B000327141 /* UINavigationController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Transition.m"; sourceTree = "<group>"; };
+		A0EFFF231E891EC200AF6744 /* DSNavigationBarTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSNavigationBarTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EFFF261E891EC200AF6744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A02BF7661E7A28750000F236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EFFF2A1E891EC200AF6744 /* DSNavigationBarTransition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EFFF1F1E891EC200AF6744 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				A02BF76B1E7A28750000F236 /* DSNavigationBarTransition */,
+				A0EFFF241E891EC200AF6744 /* DSNavigationBarTransitionFramework */,
 				A02BF76A1E7A28750000F236 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A02BF7691E7A28750000F236 /* DSNavigationBarTransition.app */,
+				A0EFFF231E891EC200AF6744 /* DSNavigationBarTransition.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +140,26 @@
 			path = DSNavigationBarTransition;
 			sourceTree = "<group>";
 		};
+		A0EFFF241E891EC200AF6744 /* DSNavigationBarTransitionFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A0EFFF261E891EC200AF6744 /* Info.plist */,
+			);
+			path = DSNavigationBarTransitionFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0EFFF201E891EC200AF6744 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EFFF321E891FCF00AF6744 /* UINavigationController+Transition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A02BF7681E7A28750000F236 /* DSNavigationBarTransition */ = {
@@ -110,15 +169,35 @@
 				A02BF7651E7A28750000F236 /* Sources */,
 				A02BF7661E7A28750000F236 /* Frameworks */,
 				A02BF7671E7A28750000F236 /* Resources */,
+				A0EFFF2F1E891EC200AF6744 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A0EFFF291E891EC200AF6744 /* PBXTargetDependency */,
 			);
 			name = DSNavigationBarTransition;
 			productName = DSNavigationBarTransition;
 			productReference = A02BF7691E7A28750000F236 /* DSNavigationBarTransition.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A0EFFF221E891EC200AF6744 /* DSNavigationBarTransitionFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0EFFF2E1E891EC200AF6744 /* Build configuration list for PBXNativeTarget "DSNavigationBarTransitionFramework" */;
+			buildPhases = (
+				A0EFFF1E1E891EC200AF6744 /* Sources */,
+				A0EFFF1F1E891EC200AF6744 /* Frameworks */,
+				A0EFFF201E891EC200AF6744 /* Headers */,
+				A0EFFF211E891EC200AF6744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSNavigationBarTransitionFramework;
+			productName = DSNavigationBarTransitionFramework;
+			productReference = A0EFFF231E891EC200AF6744 /* DSNavigationBarTransition.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -130,6 +209,11 @@
 				ORGANIZATIONNAME = "欧杜书";
 				TargetAttributes = {
 					A02BF7681E7A28750000F236 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2D2K9ZS58G;
+						ProvisioningStyle = Automatic;
+					};
+					A0EFFF221E891EC200AF6744 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2D2K9ZS58G;
 						ProvisioningStyle = Automatic;
@@ -150,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				A02BF7681E7A28750000F236 /* DSNavigationBarTransition */,
+				A0EFFF221E891EC200AF6744 /* DSNavigationBarTransitionFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +248,13 @@
 				A04861741E7B80F100327141 /* simulator.gif in Resources */,
 				A02BF7791E7A28750000F236 /* Assets.xcassets in Resources */,
 				A02BF7771E7A28750000F236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EFFF211E891EC200AF6744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +273,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0EFFF1E1E891EC200AF6744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EFFF331E891FDD00AF6744 /* UINavigationController+Transition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0EFFF291E891EC200AF6744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0EFFF221E891EC200AF6744 /* DSNavigationBarTransitionFramework */;
+			targetProxy = A0EFFF281E891EC200AF6744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A02BF7751E7A28750000F236 /* Main.storyboard */ = {
@@ -319,6 +427,50 @@
 			};
 			name = Release;
 		};
+		A0EFFF2C1E891EC200AF6744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2D2K9ZS58G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DSNavigationBarTransitionFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dushu.ou.DSNavigationBarTransitionFramework";
+				PRODUCT_NAME = DSNavigationBarTransition;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0EFFF2D1E891EC200AF6744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2D2K9ZS58G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DSNavigationBarTransitionFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-dushu.ou.DSNavigationBarTransitionFramework";
+				PRODUCT_NAME = DSNavigationBarTransition;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +491,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A0EFFF2E1E891EC200AF6744 /* Build configuration list for PBXNativeTarget "DSNavigationBarTransitionFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EFFF2C1E891EC200AF6744 /* Debug */,
+				A0EFFF2D1E891EC200AF6744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
